@@ -13,13 +13,13 @@
 # Taabe2(a,b)
 
 
-# def Taabe3(a):
-#     return a ** 2
-#
-#
-# print(Taabe3(int(input("Entry : "))))
+def Taabe3(a):
+    return a ** 2
 
-#
+
+print(Taabe3(int(input("Entry : "))))
+
+
 # # -------------------- Optional Argument --------------------
 #
 # def f4(a=4):

@@ -1,5 +1,11 @@
-# print(max([10, 15, 20, 5])) # return darad
+x = 10  # global
 
-lst = [1, 2, 3, 7, 8, 9]
-lst.append(5)  # return nadarad !
-print(lst)
+
+def func():
+    x = 20  # local
+    print(x)
+
+
+print(x)
+func()
+print(x)
