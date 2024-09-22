@@ -1,8 +1,5 @@
-people = {
-    "reza": 14,
-    "mamad": 16,
-    "arian": 19,
-}
+name = "agha reza"
+age = 30
 
 # print("man", name, "hastam", "va", age, "sal daram")
 # =================================================================
@@ -10,5 +7,4 @@ people = {
 # =================================================================
 # print("man {n} hastam va {a} sal daram".format(a=age, n=name))
 # =================================================================
-for k, v in people.items():
-    print(f"man {k} hastam va {v} sal daram")
+print(f"man {name} hastam va {age} sal daram")
