@@ -14,5 +14,10 @@
 
 # ===================================================
 
-f = open("cars.txt")
-print(f.readlines())
+# f = open("cars.txt")
+# print(f.readlines())
+
+# ===================================================
+
+f = open("cars.txt", "a")
+f.write("\nbmw")
